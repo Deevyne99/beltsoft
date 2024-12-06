@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-const DropDown = ({ question, answer, isOpen, onToggle }) => {
+const DropDown = ({ answer, isOpen, onToggle }) => {
   return (
     <div className='rounded-lg '>
       <div
