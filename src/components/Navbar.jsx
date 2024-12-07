@@ -4,7 +4,7 @@ import { BsArrowRightShort } from 'react-icons/bs'
 
 const Navbar = () => {
   return (
-    <section className='flex  justify-between  border border-b-[#75687e] px-12 md:px-16 py-2'>
+    <section className='flex z-10 bg-white fixed w-full justify-between  border border-b-[#75687e] px-12 md:px-16 py-2'>
       <div className='flex items-center gap-2'>
         <img src={logo} alt='' className='w-[50px] h-[50px]' />
         <h2 className='text-2xl'>Founders Friday</h2>
