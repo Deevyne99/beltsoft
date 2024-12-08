@@ -4,13 +4,13 @@ import { BsArrowRight } from 'react-icons/bs'
 const FounderSection = () => {
   return (
     <div className='flex flex-col mx-4 md:mx-12'>
-      <div className='flex justify-center gap-12 items-center'>
-        <div className='w-[400px] '>
+      <div className='flex flex-col md:flex-row justify-center gap-12 items-center'>
+        <div className='w-full md:w-1/2 '>
           <img src={image} alt='' />
         </div>
         <article className='flex gap-6 flex-col'>
           <h3>At Founder’s Friday, Every Friday Is a Learning Experience!</h3>
-          <p className='w-[550px]'>
+          <p className='max-w-[550px] w-full'>
             Join us in our mission to transform ideas into impact and shape the
             future of Nigeria’s startup landscape.
           </p>

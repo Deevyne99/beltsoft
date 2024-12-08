@@ -12,7 +12,7 @@ const DropDown = ({ answer, isOpen, onToggle }) => {
             <h3 className='text-xl'>Monthly Plans</h3>
           </div>
           <div className='flex items-center gap-4'>
-            <span className='text-[13px] w-full max-w-[700px] '>
+            <span className='md:flex text-[13px] w-full max-w-[700px]  hidden'>
               {answer} Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cumque aperiam officia similique debitis provident explicabo
               soluta, fuga natus facere aspernatur molestiae non neque,
@@ -37,7 +37,7 @@ const DropDown = ({ answer, isOpen, onToggle }) => {
           </div>
         </div>
         {isOpen && (
-          <div className='p-4 bg-gray-400 w-full flex items-end '>
+          <div className='p-4  w-full flex items-end '>
             <p className='text-gray-700 ml-0  flex items-end w-full'>
               {answer} Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Sapiente accusamus deserunt maiores asperiores cupiditate vitae.

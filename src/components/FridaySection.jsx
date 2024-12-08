@@ -7,11 +7,11 @@ import { BsArrowRight } from 'react-icons/bs'
 const FridaySection = () => {
   return (
     <div className='flex flex-col mx-4 md:mx-16'>
-      <div className='flex justify-between  h-[700px] w-full  '>
-        <div className='absolute w-full right-0 left-0  -mt-[300px] justify-center flex '>
+      <div className='flex justify-between flex-col md:flex-row h-[700px] w-full  '>
+        <div className='absolute w-full right-0 left-0  -mt-[300px] justify-center md:flex hidden '>
           <img src={backgroundImage} alt='' className='' />
         </div>
-        <article className='w-[50%] mt-12 '>
+        <article className='w-full md:w-[50%] mt-12 '>
           <h4 className='text-[#5c00b3] font-bold'>Founders Friday</h4>
           <h2 className='text-3xl max-w-[300px] tracking-wide'>
             What Happens At Founders Friday
@@ -27,12 +27,20 @@ const FridaySection = () => {
             <BsArrowRight className='font-bold text-lg text-[#fff]' />
           </button>
         </article>
-        <div className='flex relative flex-col'>
+        <div className='md:flex relative flex-col hidden'>
           <div className='h-[100px] w-[250px]'>
             <img src={imageTeam} alt='' />
           </div>
           <div className='mt-36 h-[100px] w-[250px] absolute -ml-24'>
             <img src={imageUser} alt='' className='mr-12' />
+          </div>
+        </div>
+        <div className='md:hidden relative gap-4 flex flex-row'>
+          <div className='w-[200px]'>
+            <img src={imageTeam} alt='' />
+          </div>
+          <div className='w-[200px]'>
+            <img src={imageUser} alt='' className='' />
           </div>
         </div>
       </div>

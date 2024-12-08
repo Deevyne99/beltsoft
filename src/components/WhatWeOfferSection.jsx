@@ -43,8 +43,10 @@ const WhatWeOffer = () => {
 
   return (
     <div className='mx-4 md:mx-16'>
-      <h2>what we offer</h2>
-      <div>
+      <h2 className='text-center text-4xl font-bold capitalize'>
+        what we offer
+      </h2>
+      <div className='mt-8'>
         {faqs.map((item, index) => {
           return (
             <DropDown

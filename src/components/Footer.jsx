@@ -7,13 +7,13 @@ import twitter from '../assets/twitter.png'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col px-12 md:px-16 py-2 border border-b-0 mt-4 border-t-[#75687e]'>
+    <div className='flex flex-col px-12 md:px-12 py-2 border border-b-0 mt-4 border-t-[#75687e] '>
       <div className='w-[120px]'>
         <img src={footerLogo} alt='' />
       </div>
-      <div className='flex flex-col items-center justify-center'>
-        <h2 className='text-2xl capitalize w-[450px] text-center'>
-          {`  Want to be a part of Abuja's Biggest Tech community`}
+      <div className='flex flex-col items-center justify-center mt-6 mx-4'>
+        <h2 className='md:text-2xl text-xl capitalize max-w-[450px] w-full text-center'>
+          {`Want to be a part of Abuja's Biggest Tech community`}
         </h2>
 
         <button className='flex gap-1 capitalize  border border-[#9424ff] mt-8 px-4 py-2 justify-center items-center rounded-3xl text-[#9424ff]'>
@@ -22,14 +22,14 @@ const Footer = () => {
         </button>
       </div>
       <div className='flex flex-col  border border-l-0 border-r-0 border-b-0 border-t-[#75687e] mt-20 py-4'>
-        <div className='flex justify-between'>
-          <div className='grid grid-cols-3 gap-4 w-[120px]'>
-            <img className='w-fu' src={facebook} alt='' />
-            <img src={instagram} alt='' />
-            <img src={twitter} alt='' />
+        <div className='flex md:flex-row flex-col bg-slate-200 justify-between items-center'>
+          <div className='flex justify-center gap-4  items-center mx-auto md:mx-0 w-[120px] '>
+            <img className='w-[30px]' src={facebook} alt='' />
+            <img src={instagram} alt='' className='w-[30px]' />
+            <img src={twitter} alt='' className='w-[30px]' />
           </div>
           <div>
-            <ul className='flex items-center gap-4 capitalize'>
+            <ul className='flex mt-4 md:flex-row flex-col items-center gap-4 capitalize'>
               <li>
                 <a href='#0'>home</a>
               </li>

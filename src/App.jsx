@@ -5,6 +5,7 @@ import FridaySection from './components/FridaySection'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Sponsor from './components/Sponsor'
+import Testimonial from './components/Testimonial'
 import WhatWeOffer from './components/WhatWeOfferSection'
 Hero
 
@@ -17,19 +18,22 @@ function App() {
       <div className=''>
         <Hero />
       </div>
-      <div className='my-12'>
+      <div className='my-16'>
         <WhatWeOffer />
       </div>
       <div>
         <FridaySection />
       </div>
-      <div className='my-12'>
+      <div className='my-16'>
         <Sponsor />
       </div>
-      <div className='my-12'>
+      <div className='my-16'>
         <FounderSection />
       </div>
-      <div className='my-12'>
+      <div className='my-16'>
+        <Testimonial />
+      </div>
+      <div className='my-16'>
         <FAQ />
       </div>
       <div>
