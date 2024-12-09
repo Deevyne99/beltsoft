@@ -3,7 +3,7 @@ import { BsArrowRight } from 'react-icons/bs'
 
 const Sponsor = () => {
   return (
-    <section className='flex flex-col md:mx-16 mx-4'>
+    <section className='flex flex-col md:mx-16 mx-4 overflow-hidden'>
       <div className='flex flex-col md:flex-row justify-between items-center'>
         <article className='w-full md:w-1/2 '>
           <h4 className='text-[#5c00b3] font-bold'>Founders Friday</h4>

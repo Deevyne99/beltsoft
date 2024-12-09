@@ -42,7 +42,7 @@ const WhatWeOffer = () => {
   }
 
   return (
-    <div className='mx-4 md:mx-16'>
+    <div className='mx-4 md:mx-16 overflow-hidden flex flex-col'>
       <h2 className='text-center text-4xl font-bold capitalize'>
         what we offer
       </h2>

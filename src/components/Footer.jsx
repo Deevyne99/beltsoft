@@ -15,14 +15,13 @@ const Footer = () => {
         <h2 className='md:text-2xl text-xl capitalize max-w-[450px] w-full text-center'>
           {`Want to be a part of Abuja's Biggest Tech community`}
         </h2>
-
         <button className='flex gap-1 capitalize  border border-[#9424ff] mt-8 px-4 py-2 justify-center items-center rounded-3xl text-[#9424ff]'>
           Register for our next Event{' '}
           <img className='w-[20px]' src={arrow} alt='' />
         </button>
       </div>
       <div className='flex flex-col  border border-l-0 border-r-0 border-b-0 border-t-[#75687e] mt-20 py-4'>
-        <div className='flex md:flex-row flex-col bg-slate-200 justify-between items-center'>
+        <div className='flex md:flex-row flex-col justify-between items-center'>
           <div className='flex justify-center gap-4  items-center mx-auto md:mx-0 w-[120px] '>
             <img className='w-[30px]' src={facebook} alt='' />
             <img src={instagram} alt='' className='w-[30px]' />
