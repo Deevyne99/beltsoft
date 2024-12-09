@@ -11,7 +11,7 @@ import cafeLog from '../assets/Ellipse-3.png'
 import cafeImage from '../assets/Ellipse-4.png'
 import arrow from '../assets/arrow.png'
 import people from '../assets/people.png'
-import money from '../assets/money-bag.png'
+import money from '../assets/Money-bag.png'
 import { BsArrowRight } from 'react-icons/bs'
 
 const Hero = () => {
