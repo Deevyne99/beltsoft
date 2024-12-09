@@ -7,15 +7,15 @@ import twitter from '../assets/twitter.png'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col px-12 md:px-12 py-2 border border-b-0 mt-4 border-t-[#75687e] '>
+    <div className='flex flex-col px-4 md:px-12 py-2 border border-b-0 mt-4 border-t-[#75687e] '>
       <div className='w-[120px]'>
         <img src={footerLogo} alt='' />
       </div>
-      <div className='flex flex-col items-center justify-center mt-6 mx-4'>
+      <div className='flex  w-full flex-col items-center justify-center mt-6 mx-4'>
         <h2 className='md:text-2xl text-xl capitalize max-w-[450px] w-full text-center'>
           {`Want to be a part of Abuja's Biggest Tech community`}
         </h2>
-        <button className='flex gap-1 capitalize  border border-[#9424ff] mt-8 px-4 py-2 justify-center items-center rounded-3xl text-[#9424ff]'>
+        <button className='flex w-full  gap-1 capitalize  border border-[#9424ff] mt-8 px-4 py-2 justify-center items-center rounded-3xl text-[#9424ff] max-w-[280px]'>
           Register for our next Event{' '}
           <img className='w-[20px]' src={arrow} alt='' />
         </button>

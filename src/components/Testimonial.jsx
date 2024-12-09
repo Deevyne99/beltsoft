@@ -22,11 +22,6 @@ const testimonials = [
       "Excellent customer service and attention to detail. I'm very satisfied.",
     image: 'https://example.com/images/michael-brown.jpg',
   },
-  {
-    name: 'Emily Davis',
-    testimonial: 'A truly exceptional service that I will use again and again.',
-    image: 'https://example.com/images/emily-davis.jpg',
-  },
 ]
 
 const Testimonial = () => {
@@ -36,13 +31,13 @@ const Testimonial = () => {
         <h2 className='capitalize text-3xl font-bold'>
           what do our attendees have to say?
         </h2>
-        <p>well see for yourself</p>
-        <div className=' flex gap-4 w-[150px] top-4 right-0 overflow-hidden'>
-          <button className='h-[60px] w-[60px] border-[#e2a7f7] border rounded-full p-2'>
-            <img className='w-[40px]' src={arrowRight} alt='' />
+        <p className='mt-2'>well see for yourself</p>
+        <div className=' flex gap-4 w-[150px] top-4  overflow-hidden absolute right-16'>
+          <button className='h-[50px] w-[50px] border-[#e2a7f7] border rounded-full p-2'>
+            <img className='w-[30px]' src={arrowRight} alt='' />
           </button>
-          <button className='h-[60px] w-[60px] border border-[#e2a7f7] rounded-full p-2'>
-            <img className='w-[40px]' src={arrowLeft} alt='' />
+          <button className='h-[50px] w-[50px] border border-[#e2a7f7] rounded-full p-2'>
+            <img className='w-[30px]' src={arrowLeft} alt='' />
           </button>
         </div>
 
@@ -56,7 +51,7 @@ const Testimonial = () => {
                 <div className='border-[2px] p-3  border-[#8300FF] h-[150px] w-[150px] rounded-full'>
                   <img src={user} alt='' />
                 </div>
-                <h2 className='text-center '>Mr Belba Ngoy</h2>
+                <h2 className='text-center font-bold'>Mr Belba Ngoy</h2>
                 <p className='text-center max-w-[250px]'>
                   Always a remarkable experience for my team and myself
                 </p>

@@ -5,6 +5,7 @@ import FridaySection from './components/FridaySection'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Register from './components/Register'
+import FounderEvent from './components/FounderEvent'
 import Sponsor from './components/Sponsor'
 import Testimonial from './components/Testimonial'
 import WhatWeOffer from './components/WhatWeOfferSection'
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div className='my-16'>
         <Sponsor />
+      </div>
+      <div className='my-16'>
+        <FounderEvent />
       </div>
       <div className='my-16'>
         <Register />

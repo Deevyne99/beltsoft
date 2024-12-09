@@ -1,5 +1,7 @@
+import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
+
 // eslint-disable-next-line react/prop-types
-const DropDown = ({ answer, isOpen, onToggle }) => {
+const DropDown = ({ question, answer, isOpen, onToggle }) => {
   return (
     <div className='rounded-lg '>
       <div
@@ -9,36 +11,23 @@ const DropDown = ({ answer, isOpen, onToggle }) => {
         <div className='flex gap-4 items-center justify-between w-full'>
           <div className='flex items-center gap-6'>
             <div className='bg-[#8300ff] w-[10px] h-[10px] rounded-[100%]'></div>
-            <h3 className='text-xl'>Monthly Plans</h3>
+            <h3 className='text-xl capitalize'>{question}</h3>
           </div>
           <div className='flex items-center gap-4'>
-            <span className='md:flex text-[13px] w-full max-w-[700px]  hidden'>
+            <span className='md:flex text-[#75687e] text-[13px] w-full max-w-[700px]  hidden'>
               {answer} Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cumque aperiam officia similique debitis provident explicabo
-              soluta, fuga natus facere aspernatur molestiae non neque,
-              voluptates modi quia ea atque mollitia voluptate.
+              Cumque aperiam officia similique debitis provident
             </span>
-            <svg
-              className={`w-5 h-5 transition-transform ${
-                isOpen ? 'rotate-180' : ''
-              }`}
-              xmlns='http://www.w3.org/2000/svg'
-              fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'
-            >
-              <path
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth={2}
-                d='M19 9l-7 7-7-7'
-              />
-            </svg>
+            {isOpen ? (
+              <AiOutlineMinus className='text-2xl text-[#75687e]' />
+            ) : (
+              <AiOutlinePlus className='text-2xl text-[#75687e]' />
+            )}
           </div>
         </div>
         {isOpen && (
           <div className='p-4  w-full flex items-end '>
-            <p className='text-gray-700 ml-0  flex items-end w-full'>
+            <p className='text-[#75687e] text-sm ml-0  flex items-end w-full'>
               {answer} Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Sapiente accusamus deserunt maiores asperiores cupiditate vitae.
               Quae sapiente tempora expedita ratione, et ipsam laudantium

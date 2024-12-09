@@ -4,32 +4,27 @@ import DropDown from './OfferDropDown'
 const WhatWeOffer = () => {
   const faqs = [
     {
-      question: 'What is your return policy?',
+      question: 'monthly meetups',
       answer:
         'You can return any item within 30 days of purchase for a full refund.',
     },
     {
-      question: 'How do I track my order?',
+      question: 'Diverse Network',
       answer:
         'You can track your order by logging into your account and viewing your order history.',
     },
     {
-      question: 'Do you offer international shipping?',
+      question: 'knowledge sharing',
       answer:
         'Yes, we ship to most countries worldwide. Shipping costs and times may vary.',
     },
     {
-      question: 'How can I contact customer service?',
+      question: 'collaboration Oppurtunities',
       answer:
         'You can contact our customer service team via email at support@example.com or by phone at +123456789.',
     },
     {
-      question: 'How can I contact customer service?',
-      answer:
-        'You can contact our customer service team via email at support@example.com or by phone at +123456789.',
-    },
-    {
-      question: 'How can I contact customer service?',
+      question: 'Community Support',
       answer:
         'You can contact our customer service team via email at support@example.com or by phone at +123456789.',
     },

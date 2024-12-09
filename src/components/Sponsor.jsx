@@ -22,35 +22,43 @@ const Sponsor = () => {
       </div>
       <div className='flex flex-col md:flex-row justify-between md:mx-16 mx-4 mt-12 '>
         <div className='p-4 border  rounded-md grid grid-cols-2 gap-4'>
-          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-slate-400 flex-col p-2'>
-            <h2 className='text-sm text-center'>Networking Oppurtunities</h2>
-            <p className='text-center text-sm'>
+          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-[#DCB6FF]  flex-col p-2'>
+            <h2 className='text-sm text-center font-medium text-[#0a0a0b]'>
+              Networking Oppurtunities
+            </h2>
+            <p className='text-center  text-[#3c3641] md:text-sm text-xs'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
-          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-slate-400 flex-col p-2'>
-            <h2 className='text-sm text-center'>Networking Oppurtunities</h2>
-            <p className='text-center text-sm'>
+          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-[#EDDBFF] flex-col p-2'>
+            <h2 className='text-sm text-center font-medium text-[#0a0a0b]'>
+              Networking Oppurtunities
+            </h2>
+            <p className='text-center  md:text-sm text-xs'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
-          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-slate-400 flex-col p-2'>
-            <h2 className='text-sm text-center'>Networking Oppurtunities</h2>
-            <p className='text-center text-sm'>
+          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-[#EDDBFF] flex-col  p-2'>
+            <h2 className='text-sm text-center font-medium text-[#0a0a0b]'>
+              Networking Oppurtunities
+            </h2>
+            <p className='text-center  md:text-sm text-xs'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
-          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-slate-400 flex-col p-2'>
-            <h2 className='text-sm text-center'>Networking Oppurtunities</h2>
-            <p className='text-center text-sm'>
+          <div className='w-[150px]  h-[150px] flex justify-center items-center rounded-[50%] bg-[#DCB6FF] flex-col p-2'>
+            <h2 className='text-sm text-center font-medium text-[#0a0a0b]'>
+              Networking Oppurtunities
+            </h2>
+            <p className='text-center  md:text-sm text-xs'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
         </div>
         <article className='w-full mt-8 md:mt-0 md:w-[50%]'>
-          <h2 className='text-2xl font-bold'>how to sponsor</h2>
-          <p>Ready to Make an Impact?</p>
-          <p className='text-sm'>
+          <h2 className='text-2xl font-bold capitalize'>how to sponsor</h2>
+          <p className='font-light text-2xl italic'>Ready to Make an Impact?</p>
+          <p className='text-sm mt-4'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
             labore beatae cumque aperiam quos deleniti, quia, dolorem
             consectetur.
