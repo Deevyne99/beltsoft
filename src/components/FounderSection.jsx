@@ -1,5 +1,5 @@
 // import React from 'react'
-import image from '../assets/image-3.png'
+import image from '../assets/Image-3.png'
 import { BsArrowRight } from 'react-icons/bs'
 const FounderSection = () => {
   return (
