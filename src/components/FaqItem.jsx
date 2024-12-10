@@ -1,10 +1,10 @@
 // eslint-disable-next-line react/prop-types
 const FAQItem = ({ question, answer, isOpen, onToggle }) => {
   return (
-    <div className='rounded-lg flex '>
+    <div className='rounded-lg flex flex-col'>
       <button
         onClick={onToggle}
-        className='w-full flex gap-2 items-center p-1  text-left  transition'
+        className='w-full flex  gap-2 items-center p-1  text-left  transition'
       >
         <span className='font-medium'>{question}</span>
         <svg
