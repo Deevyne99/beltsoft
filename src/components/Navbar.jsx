@@ -15,7 +15,7 @@ const Navbar = () => {
           <img src={logo} alt='' className='w-[50px] h-[50px]' />
           <h2 className='md:text-2xl text-lg'>Founders Friday</h2>
         </div>
-        <nav className='hidden md:flex gap-24 items-center '>
+        <nav className='hidden md:flex gap-24 items-center font-medium'>
           <ul className='flex items-center gap-4 capitalize'>
             <li>
               <a href='#0' className='text-[#8300ff]'>
@@ -32,7 +32,7 @@ const Navbar = () => {
               <a href='#0'>contact us</a>
             </li>
           </ul>
-          <button className='flex gap-1 w-[120px]  border border-[#9424ff] p-2 justify-center items-center rounded-xl text-[#9424ff]'>
+          <button className='flex gap-1 w-[120px]  border border-[#9E8CAF] p-2 justify-center items-center rounded-xl text-[#9424ff]'>
             Register <BsArrowRightShort className='text-[#9424ff] text-xl' />
           </button>
         </nav>

@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 const FAQItem = ({ question, answer, isOpen, onToggle }) => {
   return (
-    <div className='rounded-lg '>
+    <div className='rounded-lg flex '>
       <button
         onClick={onToggle}
         className='w-full flex gap-2 items-center p-1  text-left  transition'

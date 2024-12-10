@@ -32,7 +32,7 @@ const Testimonial = () => {
           what do our attendees have to say?
         </h2>
         <p className='mt-2'>well see for yourself</p>
-        <div className=' flex gap-4 w-[150px] top-4  overflow-hidden absolute right-16'>
+        <div className=' flex gap-4 w-[150px] top-16 md:top-4  overflow-hidden absolute md:right-16 right-4'>
           <button className='h-[50px] w-[50px] border-[#e2a7f7] border rounded-full p-2'>
             <img className='w-[30px]' src={arrowRight} alt='' />
           </button>
@@ -46,7 +46,7 @@ const Testimonial = () => {
             return (
               <div
                 key={item.name}
-                className={` flex flex-col justify-center items-center `}
+                className={`hidden md:flex flex-col justify-center items-center `}
               >
                 <div className='border-[2px] p-3  border-[#8300FF] h-[150px] w-[150px] rounded-full'>
                   <img src={user} alt='' />
@@ -58,6 +58,17 @@ const Testimonial = () => {
               </div>
             )
           })}
+          <div
+            className={`md:hidden flex flex-col justify-center items-center `}
+          >
+            <div className='border-[2px] p-3  border-[#8300FF] h-[150px] w-[150px] rounded-full'>
+              <img src={user} alt='' />
+            </div>
+            <h2 className='text-center font-bold'>Mr Belba Ngoy</h2>
+            <p className='text-center max-w-[250px]'>
+              Always a remarkable experience for my team and myself
+            </p>
+          </div>
         </div>
       </div>
     </div>
