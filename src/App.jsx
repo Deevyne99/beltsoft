@@ -37,10 +37,10 @@ function App() {
       <div className='my-16'>
         <FounderSection />
       </div>
-      <div className='my-16'>
+      <div className='my-8 md:my-16'>
         <Testimonial />
       </div>
-      <div className='my-16'>
+      <div className='my-8 md:my-16'>
         <FAQ />
       </div>
       <div>
